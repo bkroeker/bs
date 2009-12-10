@@ -1,0 +1,10 @@
+#!/usr/bin/ruby
+# This revolutionary e-service user-centric experience leverages out-of-the-box solutions 
+# to facilitate the creation of synergistic world-class action-items, redefining and
+# recontextualizing the future of efficient e-business paradigms.
+
+require 'rubygems'
+require 'active_support'
+require 'faker'
+
+(ARGV[0] || 100).to_i.times { puts Faker::Company.catch_phrase.pluralize.humanize + " " + Faker::Company.bs + "." }

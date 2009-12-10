@@ -1,0 +1,5 @@
+== Installation
+1. Copy bs to your path.
+2. Run it whenever you need inspiration.
+
+ $ bs [num_lines]
