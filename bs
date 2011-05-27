@@ -4,7 +4,10 @@
 # recontextualizing the future of efficient e-business paradigms.
 
 require 'rubygems'
-require 'active_support'
-require 'faker'
+gem "activesupport", "~> 3.0.0"
 
-(ARGV[0] || 100).to_i.times { puts Faker::Company.catch_phrase.pluralize.humanize + " " + Faker::Company.bs + "." }
+require 'faker'
+require 'active_support'
+require 'active_support/core_ext/string/inflections'
+
+(ARGV[0] || 1).to_i.times { puts Faker::Company.catch_phrase.pluralize.humanize + " " + Faker::Company.bs + "." }
