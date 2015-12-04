@@ -4,7 +4,7 @@
 # recontextualizing the future of efficient e-business paradigms.
 
 require 'rubygems'
-gem "activesupport", "~> 3.0.0"
+gem "activesupport", "~> 4.0.0"
 
 require 'faker'
 require 'active_support'
